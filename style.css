@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(./road-dawn-landscape-110575.jpg);
+  text-align: center;
+  font-family: "lora", serif;
+}
+#top {
+  align-items: center;
+}
+div.row {
+  align-items: center;
+  justify-content: space-around;
+  padding: 2%;
+}
+.col-sm-5 {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px grey;
+}
+input#userinput {
+  height: 40px;
+  border-radius: 8px;
+  padding: 2px 5px;
+}
