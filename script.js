@@ -36,9 +36,9 @@ function displayweather() {
       <h2 class="display-3"> <i class="bi bi-geo-alt-fill"></i> ${weatherdata.name},${weatherdata.sys.country}</h2>
       <div class="col-sm-6">
           <img src="http://openweathermap.org/img/wn/${icon}@2x.png">
-          <h3>${weatherdata.weather[0].main}<span>
+          <h2>${weatherdata.weather[0].main}<span>
                   <p>(${weatherdata.weather[0].description})</p>
-              </span></h3>
+              </span></h2>
       </div>
 
       <div class="col-sm-6">
@@ -47,19 +47,19 @@ function displayweather() {
   </div>
   <div class="row">
       <div class="col-sm-5 col-lg-2">
-          <h2> <i class="bi bi-thermometer-half"></i> ${weatherdata.main.temp}°C</h2>
+          <h3> <i class="bi bi-thermometer-half"></i> ${weatherdata.main.temp}°C</h3>
           <p>TEMPERATURE</p>
       </div>
       <div class="col-sm-5 col-lg-2">
-          <h2> <i class="bi bi-droplet-fill"></i> ${weatherdata.main.humidity}%</h2>
+          <h3> <i class="bi bi-droplet-fill"></i> ${weatherdata.main.humidity}%</h3>
           <p>HUMIDITY</p>
       </div>
       <div class="col-sm-5 col-lg-2">
-          <h2> <i class="bi bi-speedometer"></i> ${weatherdata.main.pressure} MB</h2>
+          <h3> <i class="bi bi-speedometer"></i> ${weatherdata.main.pressure} MB</h3>
           <p>PRESSURE</p>
       </div>
       <div class="col-sm-5 col-lg-2">
-          <h2><i class="bi bi-wind"></i> ${weatherdata.wind.speed}MPS </h2>
+          <h3><i class="bi bi-wind"></i> ${weatherdata.wind.speed}MPS </h3>
           <p>WIND SPEED</p>
       </div>
   </div>

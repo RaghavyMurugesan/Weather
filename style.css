@@ -21,9 +21,17 @@ div.row {
   margin: 5px;
   border-radius: 5px;
   box-shadow: 0 2px 5px grey;
+  border-top: 5px solid black;
+
+}
+.col-sm-5:hover{
+transform :scale(1.2)
 }
 input#userinput {
   height: 40px;
   border-radius: 8px;
   padding: 2px 5px;
+}
+h3{
+  padding-top:5px;
 }
